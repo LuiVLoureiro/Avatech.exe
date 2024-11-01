@@ -1,5 +1,7 @@
-// components/Navbar.jsx
+// src/components/Navbar.jsx
 import React from "react";
+import logo from "../assets/images/logo.png";
+import user from "../assets/images/user.png";
 
 export default function Navbar() {
     return (
@@ -29,10 +31,10 @@ export default function Navbar() {
                                 />
                             </svg>
                         </button>
-                        <a href="/" className="flex ms-2 md:me-24">
-                            <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3" alt="FlowBite Logo" />
+                        <a className="flex ms-10 md:me-24">
+                            <img src={logo} className="h-7 me-3 pt-2" alt="Logo" />
                             <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
-                                Flowbite
+                                -------------------------"Ola User"
                             </span>
                         </a>
                     </div>
@@ -44,8 +46,8 @@ export default function Navbar() {
                         >
                             <span className="sr-only">Open user menu</span>
                             <img
-                                className="w-8 h-8 rounded-full"
-                                src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+                                className="w-10 h-10 rounded-full"
+                                src={user}
                                 alt="user photo"
                             />
                         </button>

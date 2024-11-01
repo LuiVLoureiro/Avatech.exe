@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar.jsx";
 
 export default function App() {
     return (
-        <div className="min-h-screen max-h-full bg-sky-950 flex">
+        <div className="min-h-screen max-h-full bg-white-950 flex">
             <Navbar />
             <Sidebar />
             <div className="p-4 sm:ml-64 w-full">
